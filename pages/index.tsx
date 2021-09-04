@@ -78,8 +78,8 @@ const entries = [
       return <p>Tools used: Photoshop, Illustrator, Blender</p>
     },
     images: [
-      "/content/worst/image1.jpg",
-      "/content/worst/image3.jpg",
+      "/worst/image1.jpg",
+      "/worst/image2.jpg",
     ],
   },
   {
@@ -90,7 +90,7 @@ const entries = [
       return <p>Tools used: Photoshop, Blender</p>
     },
     images: [
-      "/content/angel93.jpg",
+      "/angel93.jpg",
     ],
   },
 ];
@@ -99,6 +99,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
+        <meta charSet="UTF-8"></meta>
         <title>mel aise {">>"} portfolio</title>
         <meta name="description" content="" />
       </Head>
@@ -106,14 +107,14 @@ const Home: NextPage = () => {
       <div className={styles.header}>
         <img src="/header.png"></img>
         <p>
-          <img src="/content/ap.jpg" width={600}></img>
+          <img src="/ap.jpg" width={600}></img>
         </p>
         <p>
           <a href="https://www.twitter.com/drinkdnL" target="_blank" rel="noreferrer">[tw]</a>
           <a href="https://www.soundcloud.com/weoooweooo" target="_blank" rel="noreferrer">[sc]</a>
-          <a href="https://www.github.com/extrasharp" target="_blank" rel="noreferrer">[gh]</a>
+          <a href="https://www.github.com/yurapyon" target="_blank" rel="noreferrer">[gh]</a>
           {" "}
-          <a href="content/resume.pdf" target="_blank" rel="noreferrer">résumé</a>
+          <a href="/resume.pdf" target="_blank" rel="noreferrer">résumé</a>
         </p>
       </div>
 
