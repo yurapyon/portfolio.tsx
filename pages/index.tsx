@@ -6,7 +6,6 @@ import styles from '../styles/Portfolio.module.css'
 interface Entry {
   name: string,
   link: string,
-  ty: ProjectType,
   description: string,
   long_info?: string,
   images?: [string],
